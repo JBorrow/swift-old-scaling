@@ -13,4 +13,4 @@
 
 source ../../modules.sh
 
-mpirun -np 2 ../../bin/swift_mpi_VERSION -s -a -t THREADS ../eagle_25_VERSION.yml
+mpirun -np 2 ../../bin/swift_mpi_VERSION -s -a -t THREADS -n 4096 ../eagle_25_VERSION.yml
