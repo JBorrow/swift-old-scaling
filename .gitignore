@@ -1,1 +1,7 @@
 swiftsim*
+
+bin/*
+logs/*
+output/*
+
+*.pdf
