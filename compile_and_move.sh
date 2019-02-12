@@ -11,7 +11,7 @@ do
     cd "swiftsim-v${version}"
 
     # Comment out engine_dump_snapshot
-    sed -i "s/engine_dump_snapshot(e);//g" src/engine.c
+    sed -i '' "s/engine_dump_snapshot(e);//g" src/engine.c
 
     ./autogen.sh
     ./configure --disable-vec --with-tbbmalloc > "../logs/configure_log_${version}"
